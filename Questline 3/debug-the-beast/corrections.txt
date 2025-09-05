@@ -1,0 +1,9 @@
+1.Program: Find the second largest number in a list :- should be given as a comment as given below:
+   ##program: Find the second largest number in a list
+2. elif num > second:
+            second = num
+Here,
+num!=largest should be given instead of num > second along with elif to restrict duplications .
+3.if second == -9999999:
+    second = 'none'
+this should be given as an extra condition to avoid getting -9999999 when there is no 2nd largest number.
