@@ -1,0 +1,14 @@
+# Reversing a String: Iterative and Recursive
+
+##1.Iterative
+We will use a loop to go backwards through the string from end to front and to build the reversed string by hand.
+Steps:
+1.Start at the last character of the string.
+2.Add each character to the new string.
+3.Stop when you reach the first character.
+
+##2.Recursive
+The problem is solved by breaking it down into smaller problems using recursion.
+Steps:
+1.Base Case: When the string is empty or has only 1 character, return it as is.
+2.Recursive Case: Return the last character + the reverse of the rest of the string.
